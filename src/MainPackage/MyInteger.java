@@ -72,7 +72,7 @@ public class MyInteger {
 
 	public static boolean isOdd(int b) {
 
-		if (b % 2 == 0)
+		if (b % 2 != 0)
 			return true;
 		else
 			return false;
